@@ -1,0 +1,48 @@
+{
+  "rows": 911415,
+  "sha256": "248760b9117cc28c47e68ffae163814e46d87b2bd8f03a058a34775a2571f8e9",
+  "test_rows_match": true,
+  "checks": [
+    {
+      "name": "stress",
+      "n": 796873,
+      "ME": 83.2302,
+      "pen_ontime": 0.0,
+      "pen_severe": 0.0,
+      "B": 83.2302,
+      "A": 83.2302,
+      "worst_severe_rate": 0.02669703
+    },
+    {
+      "name": "hold",
+      "n": 904093,
+      "ME": 84.0657,
+      "pen_ontime": 0.0,
+      "pen_severe": 0.0,
+      "B": 84.0657,
+      "A": 84.0657,
+      "worst_severe_rate": 0.02662133
+    },
+    {
+      "name": "stress_audit",
+      "n": 198570,
+      "ME": 83.0517,
+      "pen_ontime": 0.0,
+      "pen_severe": 0.0,
+      "B": 83.0517,
+      "A": 83.0517,
+      "worst_severe_rate": 0.02805023
+    },
+    {
+      "name": "hold_audit",
+      "n": 225459,
+      "ME": 84.0141,
+      "pen_ontime": 0.0,
+      "pen_severe": 0.0,
+      "B": 84.0141,
+      "A": 84.0141,
+      "worst_severe_rate": 0.02774958
+    }
+  ],
+  "hold_audit_prediction_sha256": "9094c1c85454a0eb436b692eee984c58e62f87d72080c720eb490929bfef3e71"
+}

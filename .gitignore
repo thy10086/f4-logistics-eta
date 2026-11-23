@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+F4.zip
+f4-full-run/
+f4-score-run/
+*.parquet
+*.duckdb
+*prediction*.csv
+*prediction*.csv.gz

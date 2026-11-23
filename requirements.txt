@@ -1,0 +1,5 @@
+duckdb==1.4.3
+lightgbm==4.6.0
+numpy==2.3.5
+pandas==3.0.1
+scipy==1.16.3
