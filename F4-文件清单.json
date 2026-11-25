@@ -1,0 +1,57 @@
+{
+  "F4-AI协作记录.md": {
+    "bytes": 8980,
+    "sha256": "bc4b0952fb575401e98c5e817d27d3e72438672571fe4458fdf4ea04555176fc",
+    "git_blob": "cc0ec7930417c76cb8c79285336ace57378b2336"
+  },
+  "F4-prediction-candidate.csv": {
+    "bytes": 24608623,
+    "sha256": "4ec2b1cf12c557343a86cd438f11a65f52bf76afcafe19b79a6cb0714c83996a",
+    "git_blob": "bf1882630b197560837c14e255f8c59625620b37"
+  },
+  "F4-prediction-v2.csv": {
+    "bytes": 23697147,
+    "sha256": "0b3811443bd698781a3b99ab18f15f209faf04e1cfdeb05b39f36dedda222abd",
+    "git_blob": "6aae267d186bb5cfe47307e1dd9563079c1e60df"
+  },
+  "F4-prediction-v3.csv": {
+    "bytes": 23697557,
+    "sha256": "248760b9117cc28c47e68ffae163814e46d87b2bd8f03a058a34775a2571f8e9",
+    "git_blob": "8df30772096819313f07488c585e865eabd2d9d0"
+  },
+  "F4-prediction.csv": {
+    "bytes": 23678945,
+    "sha256": "d602cebf741b12c6b2b0e1bb320423f760826783db5d2aab79ee379b119395e0",
+    "git_blob": "605a6e20de3ea15f7994d23a14202b190debf4ea"
+  },
+  "F4-优化与实验.zip": {
+    "bytes": 2872442,
+    "sha256": "34480047ea0db3fa0b05dcf729bdb791a5b69691c160354da319601faa76bfe7",
+    "git_blob": "f540910af0687dde5982b3f4f6eeed11875a9f1c"
+  },
+  "F4-提交核验清单.md": {
+    "bytes": 6744,
+    "sha256": "a0b6e4bdad5afbbd1b9b80e5a33426036604b1ec9029835f5afbd24f6d6b9eb2",
+    "git_blob": "d1275b53068d9f866050d30af3a2bf0f37817d5b"
+  },
+  "F4-方案报告.pdf": {
+    "bytes": 409108,
+    "sha256": "c4d21789a24059b42a489b4956367b235a06615d36e7ca539588a0ec3f401fba",
+    "git_blob": "8b2c7fb1e086acac2f8876c1e56d9bd16cc24c8a"
+  },
+  "F4-终审运行证据.zip": {
+    "bytes": 9716,
+    "sha256": "e95b5ef793f464bee9bd96bb52eba353874fde6b5f955a8b673965f805d1b9ea",
+    "git_blob": "fc046f023b52192334052869cba8d95f9d7137f6"
+  },
+  "F4-评委复现包.zip": {
+    "bytes": 2909088,
+    "sha256": "3a90da9c957616e1c4a63abbdebf6aec25f831d6e950025a22cea683ad1a331a",
+    "git_blob": "01d3ac5572d27bbfc9cc577d50c6dadb5fce1d3f"
+  },
+  "F4-项目说明与复现.md": {
+    "bytes": 4252,
+    "sha256": "c0ebf0a948e5a556b8a4ae282440450057874712793d4bf67dfb820c263bd3f3",
+    "git_blob": "3086f79529752f0e63aac3795477b32f1cd5469b"
+  }
+}

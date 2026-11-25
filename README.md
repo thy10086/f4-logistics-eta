@@ -16,6 +16,18 @@ F4「包裹何时到？」是 SHEIN AI 创新挑战赛的跨境包裹时效预�
 
 作品通过官网提交入口递交。《作品说明单》和《AI 协作记录》模板可从官网的作品提交清单下载。 [SHEIN 作品提交清单和模板](https://careers.shein.cn/AI-Challenge)
 
+## 正式交付与实验归档
+
+| 文件 | 内容 |
+| --- | --- |
+| [项目说明与复现](F4-项目说明与复现.md) | 计分规则、各轮实验索引、快评和完整重跑 |
+| [方案报告](F4-方案报告.pdf) · [冻结预测 v3](F4-prediction-v3.csv) | 正式方案与 911,415 件包裹预测 |
+| [评委复现包](F4-评委复现包.zip) · [终审运行证据](F4-终审运行证据.zip) | 完整代码、快评输入和复跑回执 |
+| [AI 协作记录](F4-AI协作记录.md) · [提交核验清单](F4-提交核验清单.md) | 模板字段、人工复跑和正式提交核对 |
+| [各轮优化与实验](F4-优化与实验.zip) | 承诺校准、滚动和分层风险、渠道校准、动作对齐、新晋渠道与风险分配，以及外部复测 |
+| [初版](F4-prediction.csv) · [v2](F4-prediction-v2.csv) · [渠道候选](F4-prediction-candidate.csv) | 历史及实验对照预测 |
+| [文件清单](F4-文件清单.json) | 文件大小、SHA-256 和 Git blob 指纹 |
+
 ## 复现正式 v3
 
 代码来自正式评委复现包。使用 64 位 CPython 3.12，准备从主办方取得的官方 `F4.zip`，首次冷启动需预留约 10 GB 磁盘。依赖由复现入口按 `requirements.txt` 安装。
@@ -40,4 +52,4 @@ python -X utf8 review.py full --kit C:/path/to/F4.zip
 - `carrier_policy.py` 与 `release.py` 实现分物流商策略及正式结果导出。
 - [model_notes.md](model_notes.md) 记录模型细节和来源。
 
-`review.py score` 的快评模式使用原评委复现包中的 `evidence/hold_audit_prediction.csv.gz`，请从自己持有的原包解出该文件。官方题包、原始记录和逐单预测均在本地使用。
+`review.py score` 的快评模式使用原评委复现包中的 `evidence/hold_audit_prediction.csv.gz`，请解压本仓库的评委复现包，按包内 README 运行。官方题包和原版评分器由参赛者或评委从主办方获取。
